@@ -1,7 +1,9 @@
 package it.innovationminds.corsi.controller;
 
-public class UtentiController {
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController("utenti")
+public class UtentiController {
 
 
 }

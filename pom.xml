@@ -8,6 +8,7 @@
 		<version>3.3.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>it.innovationminds</groupId>
 	<artifactId>corsi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -63,6 +64,12 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>it.innovationminds</groupId>
+			<artifactId>corsi-model</artifactId>
+			<version>1.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
